@@ -17,6 +17,7 @@ public class RecursionTraversal {
      * @param node
      */
     public static void preTraversal(TreeNode node) {
+        // 这个判断必须写在递归程序里，这是递归的的终止条件：左节点或右节点为空的时，直接返回
         if (node == null) {
             return;
         }
